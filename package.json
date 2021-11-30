@@ -6,7 +6,6 @@
 	"scripts": {
     "start": "nodemon ./server/server.js",
     "build": "webpack --mode production",
-		"build2": "webpack --node-env production",
 		"dev": "concurrently \"cross-env NODE_ENV=development webpack serve --hot --open\" \"nodemon ./server/server.js\""
 	},
 	"repository": {
