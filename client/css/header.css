@@ -1,0 +1,20 @@
+.header {
+  font-family: var(--ff-header);
+  color: var(--clr-fifth);
+  width: auto;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+}
+
+.header h1 {
+  font-size: 5vh;
+}
+
+.headerText {
+  height: auto;
+  width: 50%;
+  text-align: center;
+}

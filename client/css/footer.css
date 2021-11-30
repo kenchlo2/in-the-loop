@@ -1,0 +1,22 @@
+footer {
+  height: 5vh;
+  color: var(--clr-fifth);
+  text-align: center;
+  font-family: var(--ff-body);
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* these keep the div on the bottom of the screen regardless of the size */
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+footer > a {
+  margin-left: 2px;
+}
+
+footer > a:hover {
+  color: white;
+}

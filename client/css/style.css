@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+:root {
+	--ff-header: 'Caveat Brush', cursive;
+	--ff-body: 'Roboto Condensed', sans-serif;
+
+	--clr-primary: #e63946;
+	--clr-secondary: #f1faee;
+	--clr-third: #a8dadc;
+	--clr-fourth: #457b9d;
+	--clr-fifth: #1d3557;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#root {
+	font-family: 'Roboto Condensed';
+	background: linear-gradient(90deg, rgba(168,218,220,1) 0%, rgba(241,250,238,1) 50%, rgba(69,123,157,1) 100%);
+	height: 100%;
+	width: 100%;
+	color: var(--clr-fifth);
+}

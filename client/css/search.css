@@ -1,0 +1,50 @@
+
+.search {
+  width: auto;
+  height: 85vh;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: scroll;
+}
+
+.infoIcon {
+  position: absolute;
+  top: 10px;
+  right: 0;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background-color: white;
+}
+
+.searchBox {
+  min-width: 400px;
+  width: 30%;
+  text-align: center;
+  opacity: 0.9;
+}
+
+.input {
+  text-align: center;
+}
+
+.searchImg {
+  height: 75%;
+}
+
+.now-playing {
+  font-family: 'Caveat Brush', cursive;
+  font-size: 25px;
+  height: auto;
+  position: relative;
+  /* top: 120px;  */
+  margin: 5px;
+  text-align: center;
+}
+
+/* this make the scrollbar from overflow stay hidden */
+.search::-webkit-scrollbar {
+  display: none;
+}
